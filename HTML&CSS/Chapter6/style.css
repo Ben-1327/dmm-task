@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual{
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual1{
+  background-image: url(img/box1.jpg);
+}
+
+.main-visual2{
+  background-image: url(img/box2.jpg);
+}
+
+.main-visual3{
+  background-image: url(img/box3.jpg);
+}
+
+.main-visual4{
+  background-image: url(img/box4.jpg);
+}
