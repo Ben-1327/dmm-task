@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  width: 100%;
+}
+
+header{
+  height: 50px;
+  background-color: red;
+}
+
+.top{
+  height: 500px;
+  background-color: orange;
+}
+
+.main1{
+  height: 1400px;
+  width: 960px;
+  background-color: #ddffdd;
+  margin: 0 auto;
+}
+
+.main2{
+  height: 1400px;
+  width: 500px;
+  background-color: lime;
+  margin: 0 auto;
+}
+
+footer{
+  height: 100px;
+  background-color: blue;
+}
