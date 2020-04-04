@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.list-part{
+  margin: 50px 0;
+}
+
+.list{
+  padding: 20px;
+  text-align: left;
+  list-style-type: none;
+}
+
+.list:nth-child(odd){
+  background-color: rgba(100, 192, 250, 0.2);
+}
+
+.list:nth-child(even){
+  background-color: white;
+}
+
+.box-prat{
+
+}
+
+.box-line{
+  display: block;
+}
+
+.box{
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  background-color: yellow;
+  display: inline-block;
+  float: left;
+}
+
+
+.box1, .box5, .box9{
+  background-color: orange;
+}
+
+.box3, .box6, .box9{
+  margin-right: 0;
+}
